@@ -165,9 +165,9 @@ publishing {
 ```
 
 ```groovy
-jar {
+shadowJar {
     manifest {
-    attributes 'Multi-Release' : 'true'
+        attributes 'Multi-Release' : 'true'
     }
 }
 ```
